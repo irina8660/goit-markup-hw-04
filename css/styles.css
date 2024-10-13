@@ -67,6 +67,15 @@ address {
     color: #2e2f42;
     margin-bottom: 72px;
 }
+.card-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
 .text-body {
     font-weight: 400;
     font-size: 16px;
@@ -75,13 +84,17 @@ address {
     color: #434455;
 }
 /* --------------------------------------- navigation ----------------------------------------- */
-.topline {
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-section {
+    display: flex;
     max-width: 1158px;
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: solid 1px #E7E9FC;
-}
+} 
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -94,12 +107,17 @@ address {
     margin-right: 76px;
 }
 
-.topline-nav-list {
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-nav-list {
     display: flex;
     gap: 40px;
 }
 
-.text-nav-link {
+.header-nav-link {
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -174,6 +192,7 @@ address {
     border: 0;
     border-radius: 4px;
     padding: 16px 32px;
+    min-width: 169px;
 }
 .button:hover {
     background: #404bbf;
@@ -194,8 +213,9 @@ address {
 
 
 .concept-section {
+
     padding-top: 120px;
-    padding-bottom: 128px;
+    padding-bottom: 120px;
     margin: 0 auto;
     max-width: 1158px;
 }
@@ -223,11 +243,16 @@ address {
     justify-content: center;
     flex-direction: column;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     width: 264px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
+
+.team-card-description {
+    padding-top: 32px;
+    padding-bottom: 0;
+}
+
 .team-card-list{
     display: flex;
     align-items: center;
@@ -235,7 +260,8 @@ address {
     gap: 24px;
 
 }
-.card-header {
+.team-card-header{
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -244,6 +270,15 @@ address {
     margin-top: 32px;
     margin-bottom: 8px;
 }
+.team-text-body {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 
 /* -------------Portfolio--------- */
 
@@ -259,37 +294,26 @@ address {
     column-gap: 24px;
 }
 .portfolio-card-style {
-
     width: calc((100% - 48px) / 3);
 }
 
 .portfolio-card-description {
-    padding-top: 32px;
-    padding-left: 16px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
 }
 /* -------------footer------------ */
 
-.footer-section {
-    background: #2e2f42;
-}
 .footer {
+    background: #2e2f42;
     width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
-}
-
-.foooter-card {
-    width: 264px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
 .footer-logo {
-    display: block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -297,6 +321,8 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -306,5 +332,6 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
