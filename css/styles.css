@@ -83,16 +83,14 @@ address {
     letter-spacing: 0.02em;
     color: #434455;
 }
-/* --------------------------------------- navigation ----------------------------------------- */
+/* --------------------------------------- header ----------------------------------------- */
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
 .header-section {
     display: flex;
     max-width: 1158px;
-    display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
+padding: 0 15px 0 15px;
     border-bottom: solid 1px #E7E9FC;
 } 
 
@@ -110,6 +108,8 @@ address {
 .header-nav {
     display: flex;
     align-items: center;
+        padding-top: 24px;
+            padding-bottom: 24px;
 }
 .header-nav-list {
     display: flex;
@@ -134,9 +134,11 @@ address {
     color: #404bbf;
 }
 
-.topline-address-list {
+.header-address-list {
     display: flex;
     gap: 40px;
+            padding-top: 24px;
+                padding-bottom: 24px;
 }
 
 .text-nav-address {
