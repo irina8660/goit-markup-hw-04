@@ -250,7 +250,7 @@ address {
 
 .team-card-description {
     padding-top: 32px;
-    padding-bottom: 0;
+    padding-bottom: 32px;
 }
 
 .team-card-list{
