@@ -73,7 +73,6 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 .text-body {
@@ -108,8 +107,9 @@ padding: 0 15px 0 15px;
 .header-nav {
     display: flex;
     align-items: center;
-        padding-top: 24px;
-            padding-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: auto;
 }
 .header-nav-list {
     display: flex;
@@ -269,7 +269,7 @@ padding: 0 15px 0 15px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
+    /* margin-top: 32px; */
     margin-bottom: 8px;
 }
 .team-text-body {
