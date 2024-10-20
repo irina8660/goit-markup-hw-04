@@ -185,7 +185,6 @@ address {
 
 /* ------------------Main----------------- */
 .hero {
-    background-position: center;
     max-width: 1440px;
     margin: 0 auto;
     padding-top: 188px;
@@ -198,6 +197,7 @@ address {
     url(../images/bc-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .hero-header{
@@ -348,7 +348,7 @@ address {
     background-color: #404bbf
 }
 
-.social-icon {
+.team-social-icon {
      fill: #f4f4fd;
 }
 
