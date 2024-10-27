@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Домашка3</title>
+    <title>Домашка 5</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -331,7 +331,6 @@
 </main>
 <!---------------------------------------------------- Footer ------------------------------------------------------------------->
 <footer class="footer">
-<!-- <div class="container"> -->
 <div class="footer-section">
     <div class="footer-description">
         <a class="footer-logo" href="index.html"><span>Web</span>Studio</a>
@@ -369,13 +368,110 @@
                     </svg>
                 </a>
             </li>
- 
-
-
-            </ul>
+        </ul>
+    </div>
+    <div>
+        <form class="footer-subscribe">
+            <div class="footer-input-wraper">
+                <label for="footer-input-email" class="footer-label">Subscribe</label>
+                <input 
+                class="footer-input-email" 
+                type="email"
+                name="footer-input-email"
+                id="footer-input-email"
+                placeholder="E-mail">
+            </div>
+            <div class="footer-button-icon">
+                <button  class="footer-form-button" type="submit">
+                    <div class="button-wraper">
+                        <p>Subscribe</p>
+                        <svg class="icon-subscribe" width="24" height="24">
+                            <use href="./images/icons.svg#icon-subscribe"></use>
+                        </svg>
+                    </div> 
+                </button>
+            </div>
+        </form>
     </div>
 </div>
-<!-- </div> -->
 </footer>
+<div class="backdrop is-open"> 
+    <div class="modal">
+    <button type="button" class="modal-button-close">
+        <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+    <p class="modal-header">Leave your contacts and we will call you back</p>
+    <form class="modal-form">
+        <div class="modal-field">
+            <label for="user-name" class="modal-form-label">Name</label>
+            <div class="input-wraper">
+                <input 
+                    class="modal-form-input" 
+                    type="text" 
+                    name="user-name" 
+                    id="user-name">
+                <svg class="modal-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="modal-field">
+            <label for="user-tel" class="modal-form-label">Phone</label>
+            <div class="input-wraper">
+                <input 
+                    class="modal-form-input" 
+                    type="tel" 
+                    name="user-tel" 
+                    id="user-tel">
+                <svg class="modal-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="modal-field">
+            <label for="user-email" class="modal-form-label">Email</label>
+            <div class="input-wraper">
+                <input 
+                    class="modal-form-input" 
+                    type="email" 
+                    name="user-email" 
+                    id="user-email">
+                <svg class="modal-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="modal-field">
+            <label for="Comment" class="modal-form-label">Comment</label>
+            <textarea 
+                class="modal-form-input modal-textarea"
+                id="Comment" 
+                name="Comment"
+                placeholder="Text input"></textarea>
+        </div>
+    </form>
+
+    <div class="modal-checkbox-wraper">
+        <input 
+            class="modal-check visually-hidden"
+            type="checkbox"
+            name="modal-policy"
+            id="modal-policy"
+            value="true">
+        <label class="policy-label" for="modal-policy">
+        <span>
+            <svg class="icon-check" width="10" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+            </svg>
+        </span>I accept the terms and conditions of the
+        <a class="policy-link">Privacy Policy</a>
+        </label>
+    </div>
+
+    <button class="modal-button" type="submit">Send</button>
+    </div>
+</div> 
 </body>
 </html>
