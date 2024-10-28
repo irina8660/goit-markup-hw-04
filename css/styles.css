@@ -658,6 +658,7 @@ background-color: #31D0AA;
 .modal-button-close:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .icon-close {
@@ -667,8 +668,8 @@ background-color: #31D0AA;
 
 }
 
-.icon-close:hover,
-.icon-close:focus {
+.modal-button-close:hover .icon-close,
+.modal-button-close:focus .icon-close {
     fill: #ffffff;
 }
 
@@ -686,7 +687,7 @@ background-color: #31D0AA;
 }
 
 .modal-field {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-form {
@@ -785,7 +786,6 @@ background-color: #31D0AA;
 }
 
 .policy-label {
-    display: flex;
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -797,6 +797,7 @@ background-color: #31D0AA;
 
 .policy-label span {
     display: inline-flex;
+    justify-content: center;
     align-items: center;
     margin-right: 8px;
 
