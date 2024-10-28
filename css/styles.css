@@ -539,7 +539,7 @@ background-color: #31D0AA;
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: transparent;£
+    background-color: transparent;
     padding-left: 16px;
     margin-right: 24px;
     font-weight: 400;
@@ -598,6 +598,9 @@ background-color: #31D0AA;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    transition: 
+        opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-open {
@@ -658,8 +661,9 @@ background-color: #31D0AA;
 }
 
 .icon-close {
+    
     fill: #2e2f42;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -682,7 +686,7 @@ background-color: #31D0AA;
 }
 
 .modal-field {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-form {
