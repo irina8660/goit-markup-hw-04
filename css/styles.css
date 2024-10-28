@@ -669,7 +669,7 @@ background-color: #31D0AA;
 
 .icon-close:hover,
 .icon-close:focus {
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .modal-header {
@@ -686,7 +686,7 @@ background-color: #31D0AA;
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-form {
@@ -798,7 +798,7 @@ background-color: #31D0AA;
 }
 
 .policy-label span {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     margin-right: 8px;
 
@@ -811,10 +811,6 @@ background-color: #31D0AA;
 
 
 .icon-check {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
     transition: 
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
         border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
