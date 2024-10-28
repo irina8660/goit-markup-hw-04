@@ -690,6 +690,10 @@ background-color: #31D0AA;
     margin-bottom: 8px;
 }
 
+.modal-field-textarea {
+    margin-bottom: 16px;
+}
+
 .modal-form {
     margin-bottom: 16px;
 }
